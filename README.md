@@ -33,7 +33,7 @@ This application allows users to apply distortion effects to audio files through
 
 ## Usage
 
-1. Run the application
+1. Run the application.
 2. Load an audio file by dragging and dropping it into the application window or using the "Load Audio File" button.
 3. Adjust the parameters (Threshold, Gain, Harshness) using the sliders.
 4. Click "Preview Audio With Effects" to preview the file with added effects.
@@ -54,4 +54,4 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 - SoundFile - For audio file reading and writing.
 - Tkinter - For GUI development.
 - tkinterdnd2 - For drag-and-drop functionality.
-- pygame - For sound playback
+- pygame - For sound playback.
