@@ -86,7 +86,7 @@ file_label.pack(pady=10)
 load_button = tk.Button(root, text="Load Audio File", command=load_file)
 load_button.pack(pady=10)
 
-play_button = tk.Button(root, text="Preview Audio with Effects", command=play_audio_with_effects)
+play_button = tk.Button(root, text="Preview with Effects", command=play_audio_with_effects)
 play_button.pack(pady=10)
 
 threshold_label = tk.Label(root, text="Threshold:")
@@ -107,7 +107,7 @@ harshness_slider = tk.Scale(root, from_=1.0, to=20.0, resolution=0.1, orient='ho
 harshness_slider.pack(pady=5)
 harshness_slider.set(2.0)
 
-confirm_button = tk.Button(root, text="Confirm & Export", command=lambda: process_audio(input_file))
+confirm_button = tk.Button(root, text="Export", command=lambda: process_audio(input_file))
 confirm_button.pack(pady=10)
 
 root.mainloop()
