@@ -24,6 +24,30 @@ This application allows users to apply distortion effects to audio files through
 ## Installation
 
 1. Clone the repository:
-   ```bash
    git clone https://github.com/yourusername/audio-distortion-app.git
    cd audio-distortion-app
+2. Install the required packages:
+   pip install numpy soundfile tkinterdnd2
+
+## Usage
+
+1. Run the application
+2. Load an audio file by dragging and dropping it into the application window or using the "Load Audio File" button.
+3. Adjust the parameters (Threshold, Gain, Harshness) using the sliders.
+4. Click the "Confirm" button to process the audio file.
+5. Choose a location to save the processed file.
+
+## License
+
+This project is licensed under the UnLicense. See the LICENSE file for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
+
+## Acknowledgments
+
+NumPy - For numerical operations.
+SoundFile - For audio file reading and writing.
+Tkinter - For GUI development.
+tkinterdnd2 - For drag-and-drop functionality.
