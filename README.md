@@ -54,3 +54,4 @@ NumPy - For numerical operations.
 SoundFile - For audio file reading and writing.
 Tkinter - For GUI development.
 tkinterdnd2 - For drag-and-drop functionality.
+pygame - For sound playback
