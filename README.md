@@ -11,6 +11,7 @@ This application allows users to apply distortion effects to audio files through
   - **Harshness**: Adjusts the distortion effect's intensity.
 - Save the processed audio as a new WAV file.
 - Simple and user-friendly interface built with Tkinter.
+- Preview audio with added effects
 
 ## Requirements
 
@@ -20,6 +21,7 @@ This application allows users to apply distortion effects to audio files through
   - SoundFile
   - Tkinter
   - tkinterdnd2
+  - pygame
 
 ## Installation
 
@@ -27,15 +29,16 @@ This application allows users to apply distortion effects to audio files through
    git clone https://github.com/yourusername/audio-distortion-app.git
    cd audio-distortion-app
 2. Install the required packages:
-   pip install numpy soundfile tkinterdnd2
+   pip install numpy soundfile tkinterdnd2 pygame
 
 ## Usage
 
 1. Run the application
 2. Load an audio file by dragging and dropping it into the application window or using the "Load Audio File" button.
 3. Adjust the parameters (Threshold, Gain, Harshness) using the sliders.
-4. Click the "Confirm" button to process the audio file.
-5. Choose a location to save the processed file.
+4. Click "Preview Audio With Effects" to preview the file with added effects.
+5. Click the "Confirm & Export" button to export the audio file.
+6. Choose a location to save the processed file.
 
 ## License
 
